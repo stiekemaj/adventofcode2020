@@ -145,8 +145,8 @@ public class Day4 {
                     && isNumbericBetweenInclusive(iyr, 2010, 2020)
                     && isNumbericBetweenInclusive(eyr, 2020, 2030)
                     && isValidHeight(hgt)
-                    && matchRegex(hcl, "^#([0-9]{6}|[a-f]{6})$")
-                    && matchRegex(ecl, "^(amb|blu|brn|gry|grn|hzl|oth)$")
+                    && matchRegex(hcl, "^#[0-9a-f]{6}$")
+                    && matchRegex(ecl, "^amb|blu|brn|gry|grn|hzl|oth$")
                     && matchRegex(pid, "^[0-9]{9}$");
         }
 
