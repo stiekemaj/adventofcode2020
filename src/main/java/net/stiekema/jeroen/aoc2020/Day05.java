@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 import static java.util.Map.Entry.comparingByValue;
 import static java.util.stream.Collectors.toMap;
 
-public class Day5 {
+public class Day05 {
     public void execute() {
         InputStream in = getClass().getResourceAsStream("/day5_1.txt");
         List<String> lines = new BufferedReader(new InputStreamReader(in)).lines()
@@ -88,6 +88,6 @@ public class Day5 {
     }
 
     public static void main(String[] args) {
-        new Day5().execute();
+        new Day05().execute();
     }
 }

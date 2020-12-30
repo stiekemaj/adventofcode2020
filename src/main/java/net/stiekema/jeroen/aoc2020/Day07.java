@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Day7 {
+public class Day07 {
     public void execute() {
         InputStream in = getClass().getResourceAsStream("/day7_1.txt");
         List<String> lines = new BufferedReader(new InputStreamReader(in)).lines()
@@ -98,6 +98,6 @@ public class Day7 {
     }
 
     public static void main(String[] args) {
-        new Day7().execute();
+        new Day07().execute();
     }
 }

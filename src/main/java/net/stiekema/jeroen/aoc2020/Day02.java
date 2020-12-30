@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Day2 {
+public class Day02 {
     public void execute() {
         InputStream in = getClass().getResourceAsStream("/day2_1.txt");
         List<String> lines = new BufferedReader(new InputStreamReader(in)).lines().collect(Collectors.toList());
@@ -131,6 +131,6 @@ public class Day2 {
     }
 
     public static void main(String[] args) {
-        new Day2().execute();
+        new Day02().execute();
     }
 }

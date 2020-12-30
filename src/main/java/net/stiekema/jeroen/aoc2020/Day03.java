@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Day3 {
+public class Day03 {
 
     public void execute() {
         InputStream in = getClass().getResourceAsStream("/day3_1.txt");
@@ -71,6 +71,6 @@ public class Day3 {
     }
 
     public static void main(String[] args) {
-        new Day3().execute();
+        new Day03().execute();
     }
 }

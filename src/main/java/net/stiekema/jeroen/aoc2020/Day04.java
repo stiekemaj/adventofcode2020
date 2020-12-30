@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class Day4 {
+public class Day04 {
     public void execute() {
         InputStream in = getClass().getResourceAsStream("/day4_1.txt");
         List<String> lines = new BufferedReader(new InputStreamReader(in)).lines()
@@ -183,6 +183,6 @@ public class Day4 {
     }
 
     public static void main(String[] args) {
-        new Day4().execute();
+        new Day04().execute();
     }
 }
